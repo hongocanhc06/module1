@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <body>
+            <h2>BAI TAP 1</h2>
+            <button type="button" onclick="showMessage();">Click me!</button>
+            <script>
+                function showMessage(){alert('Xin chao!');}
+            </script>
+            <h2>BAI TAP 2</h2>
+            <dic id="showMessageDiv"></dic>
+            <button type="button" onclick="showMessage();">Click me!</button>
+            <script>function showMessage() document.getElementById('showMessageDiv').innerHTML='Xin chao';}</script>
+            <h2>BAI TAP 3</h2>
+            <dic id="showMessageDiv"></dic>
+            <button type="button" onclick="showMessage();">Click me!</button>
+            <script>function showMessage() {document.write('Xin chao!');}</script>
+            <h2>BAI TAP 4</h2>
+            <button type="button" onclick="showMessage();">Click me!</button>
+            <script>function showMessage() {console.log('Xin chao!');}</script>
+        </body>
+    </head>
+</html>
